@@ -1,0 +1,17 @@
+History.txt
+LICENSE.txt
+Manifest.txt
+README.txt
+Rakefile
+ext/fityk_api/MANIFEST
+ext/fityk_api/Makefile
+ext/fityk_api/extconf.rb
+ext/fityk_api/fityk_api.i
+ext/fityk_api/fityk_api_wrap.cxx
+lib/fityk.rb
+lib/fityk/driver/native/driver.rb
+lib/fityk/engine.rb
+lib/fityk/version.rb
+setup.rb
+test/driver/native/test_driver.rb
+test/test_engine.rb
