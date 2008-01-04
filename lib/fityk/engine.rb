@@ -8,6 +8,12 @@ module Fityk
   #   fityk = Fityk::Engine.new
   #   fityk.get_info("version", true).split("\n")
   #
+  #   fityk.load_data 0, [1,2,3], [4,5,6], [7,8,9]
+  #   fityk.get_data.entries.first
+  #   fityk.get_data.entries.first.x
+  #   fityk.get_data.entries.first.y
+  #   fityk.get_data.entries.first.sigma
+  #
   # Values are sent to and from Fityk by calling a method on the
   # engine with the method name of interest.
   class Engine

@@ -17,6 +17,12 @@ A Ruby interface to the fityk peak fitting software.
   
   fityk = Fityk::Engine.new
   fityk.get_info("version", true).split("\n")
+  
+  fityk.load_data 0, [1,2,3], [4,5,6], [7,8,9]
+  fityk.get_data.entries.first
+  fityk.get_data.entries.first.x
+  fityk.get_data.entries.first.y
+  fityk.get_data.entries.first.sigma
 
 == REQUIREMENTS:
 
