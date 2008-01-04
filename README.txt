@@ -15,7 +15,7 @@ A Ruby interface to the fityk peak fitting software.
 
   require 'fityk'
   
-  fityk = Fityk::Engine.new
+  fityk = fityk::Engine.new
   fityk.get_info("version", true).split("\n")
   
   fityk.load_data 0, [1,2,3], [4,5,6], [7,8,9]
@@ -33,18 +33,18 @@ A Ruby interface to the fityk peak fitting software.
 
 == INSTALL:
 
-Simply do the following, after installing Fityk:
+Simply do the following, after installing fityk:
 
   * ruby setup.rb config
   * ruby setup.rb setup
   * ruby setup.rb install
 
 Alternatively, you can download and install the RubyGem package for
-fityk-ruby (you must have RubyGems and Fityk installed, first):
+fityk-ruby (you must have RubyGems and fityk installed, first):
 
   * gem install fityk-ruby
 
-If you have Fityk installed in a non-standard location, you can specify the location of the include and lib files by doing:
+If you have fityk installed in a non-standard location, you can specify the location of the include and lib files by doing:
 
   * gem install fityk-ruby -- --with-fityk-include=/usr/local/include \
      --with-fityk-lib=/usr/local/lib
