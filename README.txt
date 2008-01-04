@@ -26,7 +26,7 @@ A Ruby interface to the fityk peak fitting software.
 
 == REQUIREMENTS:
 
-* fityk
+* fityk 0.8.2+
 * GCC or some other compiler to build the included extension
 * SWIG (If you want to recompile the SWIG wrapper)
 * Mocha (For testing only)
