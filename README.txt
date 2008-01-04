@@ -33,18 +33,18 @@ A Ruby interface to the fityk peak fitting software.
 
 == INSTALL:
 
-Simply do the following, after installing MATLAB:
+Simply do the following, after installing Fityk:
 
   * ruby setup.rb config
   * ruby setup.rb setup
   * ruby setup.rb install
 
 Alternatively, you can download and install the RubyGem package for
-fityk-ruby (you must have RubyGems and MATLAB installed, first):
+fityk-ruby (you must have RubyGems and Fityk installed, first):
 
   * gem install fityk-ruby
 
-If you have MATLAB installed in a non-standard location, you can specify the location of the include and lib files by doing:
+If you have Fityk installed in a non-standard location, you can specify the location of the include and lib files by doing:
 
   * gem install fityk-ruby -- --with-fityk-include=/usr/local/include \
      --with-fityk-lib=/usr/local/lib
